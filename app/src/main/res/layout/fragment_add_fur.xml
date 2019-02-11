@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemans.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activity.Fragments.FragmentAddFur">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/editCodeOfSkin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codeOfSkin"
+        android:layout_gravity="top"
+        android:inputType="number"/>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonTanningAndSale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/forSale"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/radioButtonTanning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/onlyTanning" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/addFurButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addFurSkin"
+        >
+
+    </Button>
+
+</LinearLayout>

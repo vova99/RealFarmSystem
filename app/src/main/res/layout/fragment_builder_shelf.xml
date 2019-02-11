@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".Activity.Fragments.FragmentBuilderShelf">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <TableLayout
+        android:id="@+id/shelfTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/chinDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/imageOfChinDetails"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_female"
+                />
+            <TextView
+                android:id="@+id/codeOfChinDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Code"
+                android:textStyle="italic|bold"
+                android:layout_marginLeft="20dp"
+                android:textSize="40sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Is in family"
+                />
+            <TextView
+                android:id="@+id/isInFamily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Is male"
+                />
+        </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Color"
+            />
+        <TextView
+            android:id="@+id/colorOfChin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Is male"
+            />
+    </LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Aim of existence"
+            />
+        <TextView
+            android:id="@+id/existenceOfChin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Is male"
+            />
+    </LinearLayout>
+
+        <!--family tree-->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:padding="1dp"
+            android:layout_marginTop="20dp">
+
+            <TableRow>
+                <TextView
+                    android:text="Role"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Code"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Color"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Role"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Code"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Color"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Role"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Code"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Color"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Role"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Code"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Color"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Role"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Code"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Color"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Role"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Code"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Color"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Role"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Code"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+                <TextView
+                    android:text="Color"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1" />
+            </TableRow>
+        </TableLayout>
+
+        <!--<com.github.mikephil.charting.charts.LineChart-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="300dp"-->
+            <!--android:layout_marginTop="20dp"></com.github.mikephil.charting.charts.LineChart>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:text="Childrens"-->
+            <!--android:textSize="20sp"/>-->
+        <!--<ListView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"></ListView>-->
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

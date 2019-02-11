@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RFS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Увійти або зареєструватися</string>
+    <string name="action_sign_in_short">Увійти</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Пароль занадто короткий</string>
+    <string name="error_incorrect_password">Невірний пароль</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Tracking statuses-->
+    <string name="waiting">Очікування</string>
+    <string name="inProccess">В процесі</string>
+    <string name="sorted">Посортвано</string>
+    <string name="sold">Продано</string>
+
+    <!--Fur Sorting Types-->
+    <string name="none">Не визначено</string>
+    <string name="select">Select</string>
+    <string name="firstClassPlus">FirstClassPlus</string>
+    <string name="firstClass">FirstClass</string>
+    <string name="secondClass">SecondClass</string>
+    <string name="mix">Mix</string>
+
+    <!--yes/no-->
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+
+    <!--Countries-->
+    <string name="country_uk">Україна</string>
+    <string name="country_lv">Latvijas Republika</string>
+    <string name="country_lt">Lietuvos Respublika</string>
+    <string name="country_md">Republica Moldova</string>
+    <string name="country_pl">Rzeczpospolita Polska</string>
+    <string name="country_ro">România</string>
+    <string name="country_rs">Република Србија</string>
+
+
+    <!--Search-->
+    <string name="search">Пошук</string>
+    <string name="filter">Фільтр</string>
+    <string name="save">Зберегти</string>
+
+
+
+    <!--Sale-->
+    <string name="forSale">Для продажу</string>
+    <string name="onlyTanning">Тільки вичинка</string>
+
+    <!--My profile-->
+    <string name="name">Ім\'я</string>
+    <string name="surName">Прізвище</string>
+    <string name="email">Email</string>
+    <string name="phone">Телефон</string>
+    <string name="farmCode">Код ферми</string>
+    <string name="city">Місто</string>
+    <string name="country">Країна</string>
+    <string name="old_password">Старий пароль</string>
+    <string name="new_password">Новий пароль</string>
+
+    <string name="myProfile">Мій профіль</string>
+    <string name="dashboard">Стаститика</string>
+    <string name="listOfShelfs">Список шаф</string>
+    <string name="listOfChin">Список шиншил</string>
+    <string name="addChin">Додати шиншилу</string>
+    <string name="listOfFur">Список хутра</string>
+    <string name="addFurSkin">Додати хутро</string>
+    <string name="settings">Налаштування</string>
+    <string name="chinchilas">Шиншили</string>
+    <string name="fur">Хутро</string>
+    <string name="other">Інше</string>
+
+    <string name="codeOfSkin">Код хутра</string>
+    <string name="logout">Вийти</string>
+    <string name="standart">Standart</string>
+    <string name="biege">Biege</string>
+
+
+</resources>

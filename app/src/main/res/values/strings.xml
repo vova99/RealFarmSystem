@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">RFS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Tracking statuses-->
+    <string name="waiting">Waiting</string>
+    <string name="inProccess">InProccess</string>
+    <string name="sorted">Sorted</string>
+    <string name="sold">Sold</string>
+
+    <!--Fur Sorting Types-->
+    <string name="none">None</string>
+    <string name="select">Select</string>
+    <string name="firstClassPlus">FirstClassPlus</string>
+    <string name="firstClass">FirstClass</string>
+    <string name="secondClass">SecondClass</string>
+    <string name="mix">Mix</string>
+
+    <!--yes/no-->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--Countries-->
+    <string name="country_uk">Україна</string>
+    <string name="country_lv">Latvijas Republika</string>
+    <string name="country_lt">Lietuvos Respublika</string>
+    <string name="country_md">Republica Moldova</string>
+    <string name="country_pl">Rzeczpospolita Polska</string>
+    <string name="country_ro">România</string>
+    <string name="country_rs">Република Србија</string>
+
+
+    <!--Search-->
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="save">Save</string>
+
+
+    <!--Sale-->
+    <string name="forSale">For sale</string>
+    <string name="onlyTanning">Only tanning</string>
+
+    <!--My profile-->
+    <string name="name">Name</string>
+    <string name="surName">SurName</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="farmCode">FarmCode</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+
+
+    <string name="myProfile">My profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="listOfShelfs">List of shelfs</string>
+    <string name="listOfChin">List of chinchillas</string>
+    <string name="addChin">Add chinchilla</string>
+    <string name="listOfFur">List of fur</string>
+    <string name="addFurSkin">Add fur skin</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Log out</string>
+    <string name="chinchilas">Chinchillas</string>
+    <string name="fur">Fur</string>
+    <string name="other">Other</string>
+
+    <string name="codeOfSkin">Code of skin</string>
+
+
+    <!--String color of chin-->
+    <string name="standart">Standart</string>
+    <string name="biege">Biege</string>
+    <string name="blackVelvet">BlackVelvet</string>
+    <string name="whiteWilson">WhiteWilson</string>
+    <string name="ebony">Ebony</string>
+    <string name="violet">Violet</string>
+    <string name="blue">Blue</string>
+    <string name="saphire">Saphire</string>
+    <string name="blackPearl">BlackPearl</string>
+
+    <string name="title_activity_splash_screen">Real Farm System</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
