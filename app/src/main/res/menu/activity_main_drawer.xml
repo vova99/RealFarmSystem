@@ -12,6 +12,10 @@
             android:id="@+id/nav_dashboard"
             android:icon="@drawable/ic_menu_statictic"
             android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_statictic"
+            android:title="@string/news" />
 
 
     <item android:title="@string/chinchilas">

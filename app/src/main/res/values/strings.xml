@@ -77,6 +77,7 @@
 
     <string name="myProfile">My profile</string>
     <string name="dashboard">Dashboard</string>
+    <string name="news">News</string>
     <string name="listOfShelfs">List of shelfs</string>
     <string name="listOfChin">List of chinchillas</string>
     <string name="addChin">Add chinchilla</string>
@@ -104,7 +105,7 @@
 
     <string name="title_activity_splash_screen">Real Farm System</string>
     <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_content">DUMMY CONTENT</string>
 
 
 </resources>

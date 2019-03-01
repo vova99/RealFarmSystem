@@ -12,6 +12,7 @@ public class UrlData {
     private final static String sortingsAllocation = apiHost + "/v1/FurTrackingStatistics/sortingsAllocation";
     private final static String sortingsAllocationPerCountry = apiHost + "/v1/FurTrackingStatistics/sortingsAllocationPerCountry";
     private final static String userUpdatePassword = apiHost + "/v1/Users/UpdatePassword/";
+    private final static String news = apiHost + "/v1/News/";
 
     public static String getMyFur() {
         return myFur;
@@ -47,6 +48,10 @@ public class UrlData {
 
     public static String getUserUpdatePassword() {
         return userUpdatePassword;
+    }
+
+    public static String getNews() {
+        return news;
     }
 
     public static String getShelfsFullInfo() {

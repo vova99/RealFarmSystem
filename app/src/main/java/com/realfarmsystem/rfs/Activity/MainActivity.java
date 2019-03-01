@@ -32,6 +32,7 @@ import com.realfarmsystem.rfs.Activity.DialogActivities.DialolgSorting;
 import com.realfarmsystem.rfs.Activity.Fragments.FragmentFurTracking;
 import com.realfarmsystem.rfs.Activity.Fragments.FragmentListOfChin;
 import com.realfarmsystem.rfs.Activity.Fragments.FragmentListOfShelf;
+import com.realfarmsystem.rfs.Activity.Fragments.FragmentNews;
 import com.realfarmsystem.rfs.Activity.Fragments.FragmentProfile;
 import com.realfarmsystem.rfs.Activity.Fragments.FragmentSettings;
 import com.realfarmsystem.rfs.Entity.FurSkin;
@@ -59,7 +60,7 @@ public class MainActivity extends AppCompatActivity
     FragmentProfile fragmentProfile;
     FragmentBuilderShelf fragmentBuilderShelf;
     FragmentSettings fragmentSettings;
-
+    FragmentNews fragmentNews;
 
     FragmentTransaction transaction;
     boolean flagToShowSearchInMenu = false;
@@ -103,6 +104,7 @@ public class MainActivity extends AppCompatActivity
         fragmentProfile = new FragmentProfile();
         fragmentBuilderShelf = new FragmentBuilderShelf();
         fragmentSettings = new FragmentSettings();
+        fragmentNews = new FragmentNews();
         GetRequest userInfo = new GetRequest( UrlData.getUserInfo(),this, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
@@ -125,8 +127,8 @@ public class MainActivity extends AppCompatActivity
         userInfo.commit();
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(R.string.dashboard);
-        transaction.add(R.id.fragment_container,dashboard);
-        transaction.commit();
+//        transaction.add(R.id.fragment_container,dashboard);
+//        transaction.commit();
     }
 
 
@@ -272,6 +274,9 @@ public class MainActivity extends AppCompatActivity
                 Intent intent = new Intent(this,LogInActivity.class);
                 startActivity(intent);
                 finish();
+                break;
+            case R.id.nav_news:
+                transaction.replace(R.id.fragment_container,fragmentNews,"news");
                 break;
         }
 

@@ -92,6 +92,17 @@
     <string name="logout">Вийти</string>
     <string name="standart">Standart</string>
     <string name="biege">Biege</string>
+    <string name="news">Новини</string>
+    <string name="blackVelvet">BlackVelvet</string>
+    <string name="ebony">Ebony</string>
+    <string name="whiteWilson">WhiteWilson</string>
+    <string name="violet">Violet</string>
+    <string name="blue">Blue</string>
+    <string name="saphire">Saphire</string>
+    <string name="blackPearl">BlackPearl</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY CONTENT</string>
 
 
 </resources>
